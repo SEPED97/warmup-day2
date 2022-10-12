@@ -4,12 +4,14 @@ public class WarmUpM {
 
     private static final int MAX_ALLOWED_ATTEMPTS = 3;
 
-    public static void main(String[] args) {
+    public static void main(String[] args) { //wuhuuu
+
         int attempts = 1;
 
         String[] stringInputs = {"", "", ""};
         int[] numberInputs = {0, 0, 0};
-
+        // this is the main loop
+        // this is the main loop
         while (attempts <= MAX_ALLOWED_ATTEMPTS) {
 
             Scanner scanner = new Scanner(System.in);
